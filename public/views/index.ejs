@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>socketio</title>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.5/socket.io.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- CHAT MARKUP -->
+  <div class="example-chat l-demo-container">
+    <header>Family聊天室</header>
+
+    <div class='example-chat-toolbar'>
+      <label for="nameInput">名稱:</label>
+      <input type='text' id='nameInput' placeholder='你是誰呢...？'>
+    </div><!-- end example-chat-toolbar -->
+
+    <ul id='example-messages' class="example-chat-messages"></ul>
+
+    <footer>
+      <input type='text' id='messageInput'  placeholder='說些什麼吧！'>
+    </footer>
+  </div>
+
+  <!-- customized javascript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
